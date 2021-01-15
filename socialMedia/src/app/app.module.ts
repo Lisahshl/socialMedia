@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MaterialModule} from './material.module';
 import { NewsfeedComponent } from './newsfeed/newsfeed.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    NewsfeedComponent
+    NewsfeedComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
